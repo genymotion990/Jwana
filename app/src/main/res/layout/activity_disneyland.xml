@@ -16,12 +16,13 @@
         android:text="Disneyland Park, originally Disneyland, is the first of two theme parks built at the Disneyland Resort in Anaheim, California, opened on July 17, 1955. It is the only theme park designed and built under the direct supervision of Walt Disney. It was originally the only attraction on the property; its name was changed to Disneyland Park to distinguish it from the expanding complex in the 1990s."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#111"
+        android:textColor="#D50000 "
         android:id="@+id/textView5" />
 
     <TextView
         android:text="https://disneyland.disney.go.com/"
         android:layout_width="match_parent"
+
         android:layout_height="wrap_content"
         android:textColor="#111"
         android:id="@+id/textView6" />
