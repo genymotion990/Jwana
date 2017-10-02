@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hollywood"
+    android:background="@drawable/preview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp1.project.Hollywood">
+
+    <TextView
+        android:text="The Hollywood Walk of Fame comprises more than 2,600 five-pointed terrazzo and brass stars embedded in the sidewalks along 15 blocks of Hollywood Boulevard and three blocks of Vine Street in Los Angeles, California. The stars are permanent public monuments to achievement in the entertainment industry, bearing the names of a mix of actors, musicians, directors, producers, musical and theatrical groups, fictional characters, and others. The Walk of Fame is administered by the Hollywood Chamber of Commerce and maintained by the self-financing Hollywood Historic Trust. It is a popular tourist destination, with a reported 10 million visitors in 2003."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:id="@+id/textView3"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:text="https://www.tripadvisor.co.uk/Attraction_Review-g32655-d104576-Reviews-Hollywood_Walk_of_Fame-Los_Angeles_California.html"
+        android:layout_width="match_parent"
+        android:textColor="#f2bf"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+
+</LinearLayout>

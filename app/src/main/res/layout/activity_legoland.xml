@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_legoland"
+    android:background="@drawable/lego"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.hp1.project.Legoland">
+
+    <TextView
+        android:text="Legoland California is a theme park, miniature park, and aquarium located in Carlsbad, California, based on the Lego toy brand. Opening on March 20, 1999, it was the third Legoland park to open, and the first outside of Europe. The park is currently owned by Merlin Entertainments, which took a controlling interest in 2005. A second park in the United States, Legoland Florida, opened in 2011"
+        android:layout_width="match_parent"
+        android:textColor="#17202a"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="https://www.legoland.com/california/legoland-california/rides-and-attractions/park-map/"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1F618D"
+        android:id="@+id/textView2"
+        android:layout_weight="1" />
+
+</LinearLayout>
