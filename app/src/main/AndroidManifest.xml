@@ -18,7 +18,8 @@
         <activity android:name=".Disneyland" />
         <activity android:name=".Legoland" />
         <activity android:name=".Hollywood" />
-        <activity android:name=".About"></activity>
+        <activity android:name=".About" />
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>
