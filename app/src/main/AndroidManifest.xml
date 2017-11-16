@@ -19,7 +19,11 @@
         <activity android:name=".Legoland" />
         <activity android:name=".Hollywood" />
         <activity android:name=".About" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".Favorite" />
+        <activity android:name=".CaliforniaEntertainment"></activity>
     </application>
 
 </manifest>

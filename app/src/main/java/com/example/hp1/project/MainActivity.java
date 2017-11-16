@@ -2,7 +2,6 @@ package com.example.hp1.project;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,8 +14,6 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-import static android.content.Intent.ACTION_VIEW;
-
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     ListView lv1;
     ArrayAdapter<String> adapter;
@@ -27,11 +24,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        California.add("Universal Studio Hollywood");
+        California.add("CaliforniaEntertainment");
         California.add("Disney Land");
         California.add("Lego Land");
         California.add("Hollywood Wax Museum");
         California.add("About The Application");
+        California.add("CaliforniaEntertainment");
+
         adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, California);
         lv1 = (ListView) findViewById(R.id.lv1);
         lv1.setAdapter(adapter);
@@ -43,8 +42,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         if (position == 0) {
+            Intent i5=new Intent(this,CaliforniaEntertainment.class);
+            startActivity(i5);
+            /*
             Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://promotions.universalstudioshollywood.com/general-admission-ticket-usa/?__source=search_gps_all-lang_b_intl_intl_busa_brand_tix_15off&gclid=Cj0KEQjwzpfHBRC1iIaL78Ol-eIBEiQAdZPVKmivP0ut8SdRKdjOzPBrJ3fK5smirpJb8GiXcPDZICMaAm428P8HAQ"));
             startActivity(i);
+            */
         }
         if (position == 1) {
             Intent i1 = new Intent(this, Disneyland.class);
@@ -62,7 +65,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent i4 = new Intent(this, About.class);
             startActivity(i4);
         }
-
+      if(position==5){
+          Intent i5=new Intent(this,CaliforniaEntertainment.class);
+          startActivity(i5);
+      }
     }
 
     @Override
