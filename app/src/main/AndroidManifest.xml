@@ -23,7 +23,8 @@
         <activity android:name=".NotificationActivity" />
         <activity android:name=".CameraActivity" />
         <activity android:name=".Favorite" />
-        <activity android:name=".CaliforniaEntertainment"></activity>
+        <activity android:name=".CaliforniaEntertainment" />
+        <activity android:name=".Database"></activity>
     </application>
 
 </manifest>
